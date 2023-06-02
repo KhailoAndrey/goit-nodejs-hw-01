@@ -4,7 +4,7 @@
 
 <p>На скрине показаны результаты выполнения команд в консоли в виде таблиц (console.table)</p>
 
-![screen](screenshots/screenshot.jpg)
+![screen](./screenshots/screenshot.JPG)
 
 # Результаты команд:
 

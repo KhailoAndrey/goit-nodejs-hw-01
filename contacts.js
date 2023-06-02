@@ -16,8 +16,9 @@ async function getContactById(contactId) {
     try {
         const findContact = await listContacts();
         return findContact.find(({ id }) => id === contactId)
-    } catch (err)
-    { console.log(err) }
+    } catch (err) {
+      console.log(err)
+    }
 }
 
 async function addContact(name, email, phone) {
